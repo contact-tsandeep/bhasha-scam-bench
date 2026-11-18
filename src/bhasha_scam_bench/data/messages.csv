@@ -1,0 +1,37 @@
+id,language,category,label,text,expected_signals,provenance
+EN-S-001,en,credential_request,scam,"Your account is paused. Share your OTP with support to restore UPI today.",otp_request;urgency,synthetic_example
+EN-S-002,en,upi_collect,scam,"Approve this collect request and enter your UPI PIN to receive a refund.",pin_request;collect_request,synthetic_example
+EN-S-003,en,malicious_app,scam,"Install this APK to prevent your electricity service from being disconnected.",apk_install;threat,synthetic_example
+EN-S-004,en,credential_request,scam,"KYC expires tonight. Verify your bank details at example.invalid/verify.",credential_request;urgency,synthetic_example
+EN-S-005,en,remote_access,scam,"Install a screen-sharing app so our agent can reverse the payment.",remote_access;refund_claim,synthetic_example
+EN-S-006,en,prize,scam,"You won a cash reward. Pay a small processing fee to claim it now.",upfront_fee;prize_claim,synthetic_example
+EN-L-001,en,transaction_notice,legitimate,"A payment of INR 250 was made from your account. If you did not make it, contact your bank using its official app.",transaction_notice,synthetic_example
+EN-L-002,en,security_advice,legitimate,"Never share your UPI PIN or OTP with anyone. Your bank will not ask you to send it by message.",safety_advice,synthetic_example
+EN-L-003,en,statement_notice,legitimate,"Your monthly account statement is available in the official banking app.",account_notice,synthetic_example
+EN-L-004,en,merchant_payment,legitimate,"Your payment to Green Market was successful. Keep this message for your records.",payment_receipt,synthetic_example
+EN-L-005,en,service_notice,legitimate,"Our scheduled maintenance is complete. Open the official app directly to view your account.",service_notice,synthetic_example
+EN-L-006,en,security_advice,legitimate,"To report suspected financial cyber fraud in India, use official government or bank channels.",safety_advice,synthetic_example
+HI-S-001,hi,credential_request,scam,"आपका बैंक खाता बंद हो जाएगा। अभी लिंक खोलकर OTP और बैंक विवरण भेजें।",otp_request;urgency,synthetic_example
+HI-S-002,hi,upi_collect,scam,"रिफंड पाने के लिए यह UPI कलेक्ट अनुरोध स्वीकार करें और UPI PIN डालें।",pin_request;collect_request,synthetic_example
+HI-S-003,hi,malicious_app,scam,"बिजली कटने से बचाने के लिए यह APK अभी इंस्टॉल करें।",apk_install;threat,synthetic_example
+HI-S-004,hi,credential_request,scam,"आज KYC की आखिरी तारीख है। खाते की जानकारी example.invalid पर सत्यापित करें।",credential_request;urgency,synthetic_example
+HI-S-005,hi,remote_access,scam,"पैसे वापस लेने के लिए स्क्रीन शेयरिंग ऐप इंस्टॉल करें और कोड बताएं।",remote_access;code_request,synthetic_example
+HI-S-006,hi,prize,scam,"इनाम पाने के लिए पहले छोटा सा शुल्क भेजें। ऑफर अभी खत्म होगा।",upfront_fee;urgency,synthetic_example
+HI-L-001,hi,transaction_notice,legitimate,"आपके खाते से 250 रुपये का भुगतान हुआ। इसे आपने नहीं किया हो तो बैंक के आधिकारिक ऐप से संपर्क करें।",transaction_notice,synthetic_example
+HI-L-002,hi,security_advice,legitimate,"अपना UPI PIN या OTP किसी के साथ साझा न करें। बैंक संदेश में इन्हें नहीं मांगेगा।",safety_advice,synthetic_example
+HI-L-003,hi,statement_notice,legitimate,"आपका मासिक बैंक विवरण आधिकारिक ऐप में उपलब्ध है।",account_notice,synthetic_example
+HI-L-004,hi,merchant_payment,legitimate,"ग्रीन मार्केट में आपका भुगतान सफल हुआ। इस संदेश को रिकॉर्ड के लिए रखें।",payment_receipt,synthetic_example
+HI-L-005,hi,service_notice,legitimate,"नियोजित सेवा रखरखाव पूरा हो गया है। खाते की जानकारी के लिए आधिकारिक ऐप खोलें।",service_notice,synthetic_example
+HI-L-006,hi,security_advice,legitimate,"संदिग्ध वित्तीय साइबर धोखाधड़ी की सूचना बैंक या सरकारी आधिकारिक माध्यम से दें।",safety_advice,synthetic_example
+TE-S-001,te,credential_request,scam,"మీ బ్యాంక్ ఖాతా నిలిపివేయబడుతుంది. వెంటనే OTP మరియు బ్యాంక్ వివరాలు పంపండి.",otp_request;urgency,synthetic_example
+TE-S-002,te,upi_collect,scam,"రిఫండ్ పొందడానికి ఈ UPI కలెక్ట్ అభ్యర్థనను ఆమోదించి UPI PIN నమోదు చేయండి.",pin_request;collect_request,synthetic_example
+TE-S-003,te,malicious_app,scam,"విద్యుత్ సేవ నిలిపివేయకుండా ఉండేందుకు ఈ APK ఇప్పుడే ఇన్‌స్టాల్ చేయండి.",apk_install;threat,synthetic_example
+TE-S-004,te,credential_request,scam,"ఈరోజే KYC గడువు. మీ బ్యాంక్ వివరాలను example.invalid/verify వద్ద ధృవీకరించండి.",credential_request;urgency,synthetic_example
+TE-S-005,te,remote_access,scam,"చెల్లింపు తిరిగి పొందడానికి స్క్రీన్ షేరింగ్ యాప్ ఇన్‌స్టాల్ చేసి కోడ్ చెప్పండి.",remote_access;code_request,synthetic_example
+TE-S-006,te,prize,scam,"బహుమతి పొందడానికి ముందుగా చిన్న రుసుము చెల్లించండి. ఆఫర్ వెంటనే ముగుస్తుంది.",upfront_fee;urgency,synthetic_example
+TE-L-001,te,transaction_notice,legitimate,"మీ ఖాతా నుండి 250 రూపాయల చెల్లింపు జరిగింది. మీరు చేయకపోతే అధికారిక బ్యాంక్ యాప్ ద్వారా సంప్రదించండి.",transaction_notice,synthetic_example
+TE-L-002,te,security_advice,legitimate,"మీ UPI PIN లేదా OTP ఎవరితోనూ పంచుకోవద్దు. బ్యాంక్ సందేశంలో వాటిని అడగదు.",safety_advice,synthetic_example
+TE-L-003,te,statement_notice,legitimate,"మీ నెలవారీ బ్యాంక్ స్టేట్‌మెంట్ అధికారిక యాప్‌లో అందుబాటులో ఉంది.",account_notice,synthetic_example
+TE-L-004,te,merchant_payment,legitimate,"గ్రీన్ మార్కెట్‌కు మీ చెల్లింపు విజయవంతమైంది. ఈ సందేశాన్ని రికార్డు కోసం ఉంచండి.",payment_receipt,synthetic_example
+TE-L-005,te,service_notice,legitimate,"నిర్వహణ పూర్తయింది. మీ ఖాతా వివరాల కోసం అధికారిక యాప్‌ను నేరుగా తెరవండి.",service_notice,synthetic_example
+TE-L-006,te,security_advice,legitimate,"సందేహాస్పద ఆర్థిక సైబర్ మోసాన్ని బ్యాంక్ లేదా ప్రభుత్వ అధికారిక మార్గాల్లో నివేదించండి.",safety_advice,synthetic_example
